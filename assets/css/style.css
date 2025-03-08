@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.row {
+  padding:40px 0;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bow{
+  height: 1000px;
+}
+
+.box1{
+  height: 300px;
+}
+.col-1 {
+  width: 8.333333333333333%;
+}
+.col-2 {
+  width: 16.66666666666667%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.col-5 {
+  width: 41.66666666666667%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33333333333333%;
+}
+.col-8 {
+  width: 66.66666666666667%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33333333333333%;
+}
+.col-11 {
+  width: 91.66666666666667%;
+}
+.col-12 {
+  width: 100%;
+}
+.item{
+    background-color: rgb(224, 33, 224);
+    width: 200px;
+    height:200px;
+    position: relative;
+}
+.product-1 {
+    background-color: #ddd;
+}
+.product-1 .parent{
+  position: relative;
+}
+.product-1 .item{
+  position: absolute;
+  top: 170px;
+  right: -100px;
+}
+product-2 {
+    background-color: #fff;
+}
+.product-2 .parent{
+  position: relative;
+}
+.product-2 .item{
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: -30px;
+  right: -100px;
+}
+.product-3 {
+    background-color: #ddd;
+}
+.product-3 .parent {
+  position: relative;
+}
+.product-3 .item {
+  position: absolute;
+  top: 0px;
+  right: -100px;
+}
+.product-4 {
+    background-color: #fff;
+}
+.product-4 .parent {
+  position: relative;
+}
+.product-4 .item {
+  position: absolute;
+  top: 158px;
+  right: -100px;
+}
